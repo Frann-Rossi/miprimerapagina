@@ -5,10 +5,10 @@ const emailInput = document.querySelector("#email");
 const btnMenu = document.querySelector("#btn-menu");
 const navLinks = document.querySelector("#nav-links");
 
-//Evenetos
-btn.addEventListener("click", showAlert); // btn.onclick = showAlert;
+// Eventos
+btn.addEventListener("click", showAlert);
 
-form.addEventListener("submit", function (e) {
+form.addEventListener("submit", (e) => {
 	e.preventDefault();
 	validateForm();
 });
